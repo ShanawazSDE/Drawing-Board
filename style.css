@@ -64,7 +64,6 @@ header .center{
 
 header .line{
     height:20px;
-    /* width: 1px; */
     border: solid 0.2px #f1f1fe;
     color: black;
     margin: 0px 3px;
@@ -121,7 +120,7 @@ footer .small{
         height: 100vh;
         border-radius: 0px;
         position: relative;
-        border: 5px solid blueviolet;
+        /* border: 5px solid blueviolet; */
         background-color: #f9f8fa;
     }
 
@@ -130,7 +129,7 @@ footer .small{
     button:hover{
         cursor: pointer;
     }
-   .transparent-btn:hover{
+   .transparent-btn:hover, .transparent-btn-click{
         background-color: #e6e5fc;
        
    }
@@ -138,9 +137,6 @@ footer .small{
     .non-transparent-btn:hover{
         background-color: rgb(255, 255, 242);
     }
-
-
-    /*ACTIVE*/
   
 
 
